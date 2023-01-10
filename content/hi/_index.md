@@ -1,6 +1,6 @@
 ---
 title: क्लाउड नेटिव शब्दावली
-exclude_search: true
+status: Completed
 ---
 
 # क्लाउड नेटिव शब्दावली
