@@ -1,11 +1,11 @@
-name: stale-label
+name: "Stale label"
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at 12am UTC
   push:
     branches:
       - 'dev-es'
-  workflow_dispatch:    
+  workflow_dispatch:
 permissions:
   issues: write
   pull-requests: write
