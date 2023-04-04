@@ -1,8 +1,7 @@
-name: stale-label
+name: "Stale issues"
 on:
-  branches:
-    - dev-es
-  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   stale:
     timeout-minutes: 1
