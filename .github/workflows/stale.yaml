@@ -2,8 +2,9 @@ name: stale-label
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at 12am UTC
-  branches:
-    - dev-es    
+  push:
+    branches:
+      - 'dev-es'
   workflow_dispatch:    
 permissions:
   issues: write
