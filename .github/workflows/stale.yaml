@@ -1,4 +1,4 @@
-name: "Stale label"
+name: stale-label
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at 12am UTC
